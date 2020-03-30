@@ -20,7 +20,7 @@ public class StudentConfig {
         return new Students(studentList);
     }
 
-    @Bean(name = "previous students")
+    @Bean(name = "previousStudents")
     public Students previousStudents(){
         List<Student> studentList = new ArrayList<>();
         studentList.add(new Student(4L, "Reese"));
